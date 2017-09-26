@@ -322,9 +322,12 @@
 
         <div id="contact-form">
         <form method="POST" action="https://formspree.io/ybanezmarjune@gmail.com">
-          <input type="email" name="email" placeholder="Your email">
-          <textarea name="message" placeholder="Your message"></textarea>
-          <button type="submit">Send</button>
+            <input type="text" name="name" placeholder="Your name">
+            <input type="email" name="email" placeholder="Your email">
+            <input type="hidden" name="_next" value="https://ybanezmarjune.github.io/portfolio/#contact"/>
+            <input type="text" name="_gotcha" style="display:none" />
+            <textarea name="message" placeholder="Your message"></textarea>
+            <button type="submit">Send</button>
         </form>
            <!--  <form method="POST" action="http://formspree.io/ybanezmarjune@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
