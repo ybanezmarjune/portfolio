@@ -23,9 +23,14 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
-    "gulp-wait": "0.0.2"
+    "gulp-wait": "0.0.2",
+    "cryptiles": "4.1.2",
+    "hoek": "4.2.1",
+    "lodash": "4.17.5"
   },
   "dependencies": {
-    "npm": "^6.4.1"
+    "npm": "^6.4.1",
+    "to": "^0.2.9",
+    "update": "^0.7.4"
   }
 }
